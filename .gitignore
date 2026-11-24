@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Telethon session files
+*.session
+*.session-journal
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
